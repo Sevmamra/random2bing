@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- 🌟 Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🖼️ Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+      <p class="typewriter">Web Developer | Designer | Freelancer</p>
+      <a href="#contact" class="btn-primary">Hire Me</a>
+    </div>
+    <div class="hero-image">
+      <img src="assets/hero.png" alt="Hero Image" />
+    </div>
+  </section>
+
+  <!-- 👤 About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I'm a passionate web developer with experience in building responsive and interactive websites. I specialize in front-end development and love crafting beautiful user experiences.
+        </p>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <img src="assets/about.jpg" alt="About Me" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 🛠️ Services Section -->
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Web Design</h3>
+        <p>Modern and responsive web design tailored to your brand.</p>
+      </div>
+      <div class="card">
+        <h3>Development</h3>
+        <p>Clean, efficient code for fast and scalable websites.</p>
+      </div>
+      <div class="card">
+        <h3>SEO Optimization</h3>
+        <p>Improve your site's visibility and ranking on search engines.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🖼️ Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-gallery">
+      <div class="portfolio-item">
+        <img src="assets/project1.jpg" alt="Project 1" />
+        <div class="overlay">
+          <h3>Project Title</h3>
+          <p>Short description of the project.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="assets/project2.jpg" alt="Project 2" />
+        <div class="overlay">
+          <h3>Project Title</h3>
+          <p>Short description of the project.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="assets/project3.jpg" alt="Project 3" />
+        <div class="overlay">
+          <h3>Project Title</h3>
+          <p>Short description of the project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 💬 Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial">
+        <p>"Amazing work! Highly recommended."</p>
+        <h4>- Client Name</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Delivered on time and exceeded expectations."</p>
+        <h4>- Client Name</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Professional and creative. Will hire again."</p>
+        <h4>- Client Name</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📅 Timeline Section -->
+  <section id="timeline" class="timeline">
+    <h2>My Journey</h2>
+    <div class="timeline-container">
+      <div class="timeline-item">
+        <h3>2020</h3>
+        <p>Started learning web development.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2021</h3>
+        <p>Built my first freelance project.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2022</h3>
+        <p>Joined a startup as front-end developer.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📬 Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <!-- 📰 Newsletter Section -->
+  <section class="newsletter">
+    <h2>Subscribe to My Newsletter</h2>
+    <form id="newsletter-form">
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- 🔗 Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <!-- 📜 Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
